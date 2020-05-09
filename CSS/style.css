@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+body {
+  background: rgb(25, 25, 25);
+  background: linear-gradient(
+    103deg,
+    rgba(25, 25, 25, 1) 0%,
+    rgba(46, 46, 46, 1) 100%
+  );
+  /* color: white;    */
+}
+
+#mainHeader {
+  background-color: #3d393a;
+  width: 70%;
+  height: 70px;
+  /* display: flex; */
+  box-sizing: border-box;
+  box-decoration-break: clone;
+  margin: 0 auto;
+  clear: both;
+  box-shadow: 2px 4px #222222;
+}
+
+.flyerLogo img {
+  float: left;
+  width: 100px;
+  height: 50px;
+  margin-top: 10px;
+  margin-right: 400px;
+  margin-left: 30px;
+}
+ul {
+  transition-duration: 200ms;
+  transition-property: all;
+}
+
+li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 15px 10px;
+  margin-top: 8px;
+  clear: both;
+  font-weight: bold;
+}
+
+ul li:hover {
+  transform: scale(1.2);
+  background-color: orange;
+  border-radius: 20px;
+  box-shadow: 0 4px 5px;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  /* cursor: none;  */
+}
+
+a:active,
+a:focus,
+a:hover {
+  background-clip: border-box;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: orange;
+  color: maroon;
+}
+
+#mainContent {
+  width: 70%;
+  margin: 0 auto;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  color: orange;
+  clear: both;
+}
+
+.header h1,
+.header h2 {
+  color: orange;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+.solid {
+  border: 2px solid orange;
+}
+
+.teamImages img {
+  height: 280px;
+  width: 250px;
+  margin: 0 auto;
+  padding-top: 10px;
+  padding-right: 0px;
+  padding-bottom: 10px;
+  padding-left: 80px;
+
+  clear: both;
+}
+
+img:hover {
+  transform: scale(1.2);
+}
+
+.secondWrapper {
+  height: 190px;
+  margin: 0 auto;
+  background: #2a2a2e;
+  padding-top: 10px;
+  box-shadow: 2px 4px #222222;
+}
+
+.aboutFlyer p {
+  text-align: left;
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+}
+
+#footer {
+  display: block;
+  text-align: center;
+  height: 50px;
+  background-color: #3d393a;
+  padding-top: 22px;
+}
